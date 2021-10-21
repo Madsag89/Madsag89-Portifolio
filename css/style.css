@@ -292,11 +292,12 @@ header > p{
 
 .modal-body{
     padding: 1rem 1rem 2rem 1rem;
+ 
 }
 
 
 .modal-body > img{
-    width: 100%;
+    width: 50%;
     padding-bottom: 1rem;
 }
 
@@ -594,10 +595,18 @@ header > p{
     padding: 0px;
     }
 
-  
+    /* Modal */
+    .modal-body > img{
+    padding: 45px 1rem 0px 10px;
+    float: right;
+    }   
+
+
+    .modal {
+    padding-top: 100px;
+    }
 
 }
-
 
 @media (min-width: 900px) {
     .area-of-expertise-col {
